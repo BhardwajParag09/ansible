@@ -1,0 +1,14 @@
+---
+
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+       vm_name: 10.38.203.8
+
+  tasks:
+        
+      - name: node remove
+        rubrik_physical_host:
+          hostname: "{{ vm_name }}"
+          action: add

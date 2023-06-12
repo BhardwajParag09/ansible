@@ -1,0 +1,13 @@
+---
+
+- hosts: localhost
+  connection: local
+  gather_facts: false
+  vars:
+       vm_name: Parag_linux_DND
+
+  tasks:
+
+    - name: On-Demand Snapshot
+      rubrik_on_demand_snapshot:
+        object_name: "{{ vm_name }}"
