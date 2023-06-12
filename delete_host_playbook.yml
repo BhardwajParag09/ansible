@@ -4,14 +4,14 @@
 
 vars:
     credentials:
-      node_ip: 10.38.196.31
-      api_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkODc1ZWM5Mi0wY2M4LTRkM2UtOGE1Mi03NGY1OGRjMzM0ZTciLCJpc01mYVJlbWVtYmVyVG9rZW4iOmZhbHNlLCJpc3MiOiIwY2Q2ZTQ2ZS01NzRiLTQxODMtYWNmYS0xNDgxOTk2MmZjZWYiLCJpYXQiOjE2NTc2MTg2NTUsImp0aSI6IjkxMjNlOThjLTBiZTYtNDNmNC1hMmI5LTM1NzdiYzY1ZGMxNSJ9.VepeAiOr0g_CyIavKwCXet7bFuIJXX2FPnum0DyGtNI
+      node_ip: 10.38.X.X
+      api_token: ey123
 
 tasks:
 
     name: remove host
-    rubrik_cdm_node_ip: 10.38.196.31
-    arubrik_cdm_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkODc1ZWM5Mi0wY2M4LTRkM2UtOGE1Mi03NGY1OGRjMzM0ZTciLCJpc01mYVJlbWVtYmVyVG9rZW4iOmZhbHNlLCJpc3MiOiIwY2Q2ZTQ2ZS01NzRiLTQxODMtYWNmYS0xNDgxOTk2MmZjZWYiLCJpYXQiOjE2NTc2MTg2NTUsImp0aSI6IjkxMjNlOThjLTBiZTYtNDNmNC1hMmI5LTM1NzdiYzY1ZGMxNSJ9.VepeAiOr0g_CyIavKwCXet7bFuIJXX2FPnum0DyGtNI
+    rubrik_cdm_node_ip: 10.38.X.X
+    arubrik_cdm_token: ey123
     action: delete
     object_name: "Parag_linux_DND"
     delegate_to: localhost
@@ -24,6 +24,6 @@ tasks:
         
             
     credentials:
-        node_ip: 10.38.196.31
+        node_ip: 10.38.X.X
         username: admin
-        password: Rubrik@1234!
+        password: Password123
