@@ -7,8 +7,8 @@
   vars:
        vm_name: 10.38.200.8  
        credentials:
-            node_ip: sin-sup-brik-00.sin.support.rubrik.com
-            api_token: eyJ0eXAiOiJKV1QiL3NGY1OGRjMzM0ZTciLCJpc01mYVJlbWVtYmVyVG9rZW4iOmZhbHNlLCJpc3MiOiIwY2Q2ZTQ2ZS01NzRiLTQxODMtYWNmYS0xNDgxOTk2MmZjZWYiLCJpYXQiOjE2NTc2MTg2NTUsImp0aSI6IjkxMjNlOThjLTBiZTYtNDNmNC1hMmI5LTM1NzdiYzY1ZGMxNSJ9.VepeAiOr0g_CyIavKwCXet7bFuIJXX2FPnum0DyGtNI
+            node_ip: 1.2.3.4
+            api_token: ey123
 
 
   tasks:
