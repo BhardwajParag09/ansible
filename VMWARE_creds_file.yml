@@ -1,0 +1,9 @@
+---
+# Common variables
+- validate_certs: no
+- debug_flag: no
+
+# vCenter related details
+- vcenter_server: X.X.X.X
+- vcenter_user: administrator@vsphere.local
+- vcenter_pass: Password 
