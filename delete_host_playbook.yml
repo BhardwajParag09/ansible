@@ -4,13 +4,13 @@
 
 vars:
     credentials:
-      node_ip: 10.38.X.X
+      node_ip: 10.X.X.X
       api_token: ey123
 
 tasks:
 
     name: remove host
-    rubrik_cdm_node_ip: 10.38.X.X
+    rubrik_cdm_node_ip: 10.X.X.X
     arubrik_cdm_token: ey123
     action: delete
     object_name: "Parag_linux_DND"
@@ -24,6 +24,6 @@ tasks:
         
             
     credentials:
-        node_ip: 10.38.X.X
+        node_ip: 10.X.X.X
         username: admin
-        password: Password123
+        password: Passwd
