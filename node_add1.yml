@@ -4,7 +4,7 @@
   connection: local
   gather_facts: false
   vars:
-       vm_name: 10.38.203.8
+       vm_name: 10.X.X.X
 
   tasks:
         
