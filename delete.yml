@@ -9,7 +9,7 @@
         api_token: ey123
   
   vars:
-       vm_name: 10.38.X.X
+       vm_name: 10.X.X.X
 
   tasks:
         
@@ -27,7 +27,7 @@
   connection: local
   gather_facts: false
   vars:
-       vm_name: 10.38.X.X
+       vm_name: 10.X.X.X
 
   tasks:
         
